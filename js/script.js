@@ -7,12 +7,12 @@ const numberLen = 5;
 function CheckNumber() {
     let number = document.getElementById("inputNumber").value;
     if (number.length != numberLen) {
-        alert("Неверный формат номера заказа");
+        alert("Неверный формат номера заказа (5 символов)");
         return;
     }
     for (let i = 0; i < number.length; i++) {
         if (number[i] < '0' || number[i] > '9') {
-            alert("Неверный формат номера заказа");
+            alert("Неверный формат номера заказа (только цифры)");
             return;
         }
     }
