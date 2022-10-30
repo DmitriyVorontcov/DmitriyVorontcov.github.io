@@ -1,0 +1,53 @@
+.header {
+	margin-bottom: 25px;
+    padding: 15px;
+    box-shadow: 0 0 2px 2px #5e5e5e;
+    background: #FEDFC0;
+    text-align: center;
+    font: bold 150% serif;
+}
+
+.input-number {
+	min-width: 300px;
+}
+
+body {
+    background-color: #e9eb96;
+}
+
+h2{
+	text-align: center;
+}
+
+.find-menu {
+	display: flex;
+    text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.historyTable {
+	margin: auto;
+	padding: auto;		
+	justify-content: center;
+	text-align: center;
+}
+
+.historyTable-row {
+	background-color: #FEDFC0;
+	border: 2px solid black;
+}
+
+.historyTable-cell {
+	border: 2px solid black;
+	text-align: center;
+}
+
+.search-btn , .return-btn{
+	padding: 1px 4px;
+	margin-left: 2px;
+	border: 1px solid black;
+	border-color: black;
+	background-color: #f0c349;
+	border-radius: 10px;
+}
